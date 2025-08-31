@@ -318,10 +318,6 @@ const Student = () => {
       regNo = "",
       age = "",
       dob = "",
-      phone = "",
-      state = "",
-      district = "",
-      courses = [],
     } = addModal?.data || {};
 
     if (!name.trim()) return alert("Name is required.");
