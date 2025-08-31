@@ -232,8 +232,6 @@ const Student = () => {
   };
 
   const handleCellValueChange = async (params) => {
-    console.log(params);
-
     const { colDef, newValue, oldValue, data, node } = params;
     const field = colDef.field;
 
