@@ -388,7 +388,7 @@ const Student = () => {
       {
         headerName: "Age",
         field: "age",
-        width: 200,
+        width: 150,
         valueGetter: (params) => Number(params?.data?.age || ""),
         sortable: true,
         filter: "agNumberColumnFilter",
